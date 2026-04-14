@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b6ec3a049851829cd84342d81c85404",
+    "content-hash": "a8792005a37d2f1a922d67b247e02ac4",
     "packages": [],
     "packages-dev": [
         {
@@ -1589,11 +1589,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.46",
+            "version": "2.1.47",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a193923fc2d6325ef4e741cf3af8c3e8f54dbf25",
-                "reference": "a193923fc2d6325ef4e741cf3af8c3e8f54dbf25",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/79015445d8bd79e62b29140f12e5bfced1dcca65",
+                "reference": "79015445d8bd79e62b29140f12e5bfced1dcca65",
                 "shasum": ""
             },
             "require": {
@@ -1638,7 +1638,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-01T09:25:14+00:00"
+            "time": "2026-04-13T15:49:08+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -2990,16 +2990,16 @@
         },
         {
             "name": "rector/type-perfect",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/type-perfect.git",
-                "reference": "0b25e6dc8596c04fb2d5bb686e5aebc91c85afd1"
+                "reference": "dff8f1fe24be635f428c98de147f227af7caf58a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/type-perfect/zipball/0b25e6dc8596c04fb2d5bb686e5aebc91c85afd1",
-                "reference": "0b25e6dc8596c04fb2d5bb686e5aebc91c85afd1",
+                "url": "https://api.github.com/repos/rectorphp/type-perfect/zipball/dff8f1fe24be635f428c98de147f227af7caf58a",
+                "reference": "dff8f1fe24be635f428c98de147f227af7caf58a",
                 "shasum": ""
             },
             "require": {
@@ -3027,7 +3027,7 @@
             "description": "Next level type declaration checks",
             "support": {
                 "issues": "https://github.com/rectorphp/type-perfect/issues",
-                "source": "https://github.com/rectorphp/type-perfect/tree/2.1.2"
+                "source": "https://github.com/rectorphp/type-perfect/tree/2.1.3"
             },
             "funding": [
                 {
@@ -3039,7 +3039,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-12T07:51:54+00:00"
+            "time": "2026-04-14T08:59:21+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -5548,16 +5548,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "2.1.1",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "bdbabc199a7ba9965484e4725d66170e5711323b"
+                "reference": "eb0d790f735ba6cff25c683a85a1da0eadeff9e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bdbabc199a7ba9965484e4725d66170e5711323b",
-                "reference": "bdbabc199a7ba9965484e4725d66170e5711323b",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/eb0d790f735ba6cff25c683a85a1da0eadeff9e4",
+                "reference": "eb0d790f735ba6cff25c683a85a1da0eadeff9e4",
                 "shasum": ""
             },
             "require": {
@@ -5604,9 +5604,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/2.1.1"
+                "source": "https://github.com/webmozarts/assert/tree/2.3.0"
             },
-            "time": "2026-01-08T11:28:40+00:00"
+            "time": "2026-04-11T10:33:05+00:00"
         }
     ],
     "aliases": [],
