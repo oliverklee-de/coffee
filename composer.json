@@ -84,7 +84,7 @@
 			"@check:composer",
 			"@check:php"
 		],
-		"check:tests:unit": "phpunit --testsuite unit",
+		"check:tests:unit": "phpunit --config=./Build/phpunit/config.xml --testsuite unit",
 		"fix": [
 			"@fix:composer",
 			"@fix:php"
