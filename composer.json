@@ -77,8 +77,8 @@
 			"@check:php:stan"
 		],
 		"check:php:fixer": "php-cs-fixer fix --config=./Build/php-cs-fixer/config.php --dry-run --diff -v --show-progress=dots",
-		"check:php:lint": "parallel-lint Build *.php src tests",
-		"check:php:rector": "rector process --dry-run",
+		"check:php:lint": "parallel-lint Build src tests",
+		"check:php:rector": "rector process --config=./Build/rector/config.php --dry-run",
 		"check:php:stan": "phpstan --configuration=./Build/phpstan/phpstan.neon --no-progress",
 		"check:static": [
 			"@check:composer",
@@ -95,7 +95,7 @@
 			"@fix:php:fixer"
 		],
 		"fix:php:fixer": "php-cs-fixer fix --config=./Build/php-cs-fixer/config.php",
-		"fix:php:rector": "rector process",
+		"fix:php:rector": "rector process --config=./Build/rector/config.php",
 		"phpstan:baseline": "phpstan --configuration=./Build/phpstan/phpstan.neon --generate-baseline=./Build/phpstan/phpstan-baseline.neon --allow-empty-baseline"
 	},
 	"scripts-descriptions": {
