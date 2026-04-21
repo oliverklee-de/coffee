@@ -5,5 +5,4 @@
 /.gitlab/ export-ignore
 /Build/ export-ignore
 /composer.lock export-ignore
-/phpcs.xml export-ignore
 /tests/ export-ignore
