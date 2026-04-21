@@ -76,8 +76,8 @@
 			"@check:php:rector",
 			"@check:php:stan"
 		],
-		"check:php:fixer": "php-cs-fixer fix --dry-run --diff -v --show-progress=dots",
-		"check:php:lint": "parallel-lint .*.php *.php src tests",
+		"check:php:fixer": "php-cs-fixer fix --config=./Build/php-cs-fixer/config.php --dry-run --diff -v --show-progress=dots",
+		"check:php:lint": "parallel-lint Build *.php src tests",
 		"check:php:rector": "rector process --dry-run",
 		"check:php:stan": "phpstan --no-progress",
 		"check:static": [
@@ -94,7 +94,7 @@
 			"@fix:php:rector",
 			"@fix:php:fixer"
 		],
-		"fix:php:fixer": "php-cs-fixer fix --config .php-cs-fixer.php",
+		"fix:php:fixer": "php-cs-fixer fix --config=./Build/php-cs-fixer/config.php",
 		"fix:php:rector": "rector process",
 		"phpstan:baseline": "phpstan --generate-baseline=phpstan-baseline.neon --allow-empty-baseline"
 	},
